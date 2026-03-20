@@ -33,7 +33,7 @@ build/
 .vscode/
 
 
-target/
+# target/
 *.class
 *.jar
 *.war
