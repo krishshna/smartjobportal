@@ -6,7 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/jobs")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "smartjobportal-chi.vercel.app")
 public class JobsController {
 
     private final JobRepository jobRepository;
