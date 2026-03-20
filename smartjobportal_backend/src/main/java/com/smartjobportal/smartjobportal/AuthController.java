@@ -10,7 +10,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://smartjobportal-chi.vercel.app")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://smartjobportal-chi.vercel.app"
+})
 public class AuthController {
 
     private final UserRepository userRepository;
