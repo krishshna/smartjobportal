@@ -2,13 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "../context/AuthContext";
 import api from "../api/axios";
 
-const STATUS_COLORS = {
-  APPLIED: "bg-blue-50 text-blue-700",
-  UNDER_REVIEW: "bg-yellow-50 text-yellow-700",
-  SHORTLISTED: "bg-green-50 text-green-700",
-  REJECTED: "bg-red-50 text-red-700",
-  HIRED: "bg-emerald-50 text-emerald-700",
-};
 
 export default function JobsPage() {
   const { user } = useAuth();
